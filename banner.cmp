@@ -1,0 +1,15 @@
+<aura:component implements="flexipage:availableForAllPageTypes,flexipage:availableForRecordHome,force:hasRecordId,forceCommunity:availableForAllPageTypes" access="global">
+  <aura:attribute name="pageName" type="String" />
+  <aura:attribute name="title" type="String" />
+  <aura:attribute name="resource" type="String" />
+
+  <div class="full-width" style="margin-top:-1em;">
+      <div class="slds-grid slds-wrap" >
+          <div class="slds-p-horizontal--small slds-size--1-of-1 slds-medium-size--12-of-12 slds-large-size--12-of-12" style="{!'background-image:url('+v.resource+')'}" >	
+            <div class="slds-p-top_large slds-p-bottom_large slds-align_absolute-center" style="min-height:200px;">
+                <span class="slds-text-heading_large slds-text-color_inverse" style="text-transform:uppercase;">{!v.title}</span>
+              </div>
+          </div>
+      </div>
+  </div>
+</aura:component>
