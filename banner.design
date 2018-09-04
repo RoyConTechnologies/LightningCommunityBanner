@@ -1,0 +1,5 @@
+<design:component>
+  <design:attribute name="pageName" label="pageName" description="Indicates the page that the component is being displayed on" />
+  <design:attribute name="title" label="title" description="Add the language that should appear in the page banner" />
+  <design:attribute name="resource" label="resource" description="indicate the URL of the background image to be merged into this page header" />
+</design:component>
